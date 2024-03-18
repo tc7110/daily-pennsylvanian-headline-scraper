@@ -1,5 +1,5 @@
 """
-Scrapes a headline from The Daily Pennsylvanian website and saves it to a 
+Scrapes the Opinion titles and their respective sub-titles from The Daily Pennsylvanian website and saves it to a 
 JSON file that tracks headlines over time.
 """
 
@@ -15,10 +15,10 @@ import loguru
 
 def scrape_data_point():
     """
-    Scrapes the main headline from The Daily Pennsylvanian home page.
+    Scrapes the titles and content from The Daily Pennsylvanian Opinion page.
 
     Returns:
-        str: The headline text if found, otherwise an empty string.
+        str: The title text and description if found, otherwise an empty string.
     """
     req = requests.get("https://www.thedp.com/section/opinion")
     loguru.logger.info(f"Request URL: {req.url}")
