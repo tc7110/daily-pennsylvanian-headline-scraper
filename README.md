@@ -1,3 +1,7 @@
+# daily-pennsylvanian-opinion-scraper
+
+Using the basic-git-scraper-template, this Python script is designed to scrape opinion headlines and their corresponding abstracts from The Daily Pennsylvanian's website, specifically from its Opinion section. The script organizes the scraped data into a structured format, storing each opinion article's title and full text in a JSON file titled daily_pennsylvanian_opinions.json.
+
 # Basic Git Scraper Template
 
 This template provides a starting point for **git scraping**—the technique of scraping data from websites and automatically committing it to a Git repository using workflows, [coined by Simon Willison](https://simonwillison.net/2020/Oct/9/git-scraping/).
